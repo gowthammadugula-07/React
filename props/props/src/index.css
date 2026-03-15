@@ -1,0 +1,27 @@
+
+*{
+  color: rgb(41, 72, 100);
+}
+body{
+  background-color: black;
+}
+.card{
+  background-color: #fff;
+  align-content: center;
+  width: 250px;
+  border: 1px solid yellowgreen;
+  padding: 20px;
+  text-align: center;
+}
+.card img{
+  height: 110px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
